@@ -1,0 +1,1217 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"get_full_url"
+			],
+			[
+				"published",
+				"published_date"
+			],
+			[
+				"p",
+				"people"
+			],
+			[
+				"s",
+				"split"
+			],
+			[
+				"cla",
+				"clapping"
+			],
+			[
+				"instr",
+				"instructions"
+			],
+			[
+				"nex",
+				"nextNode"
+			],
+			[
+				"next",
+				"nextNum"
+			],
+			[
+				"desire",
+				"desiredRight"
+			],
+			[
+				"P",
+				"Pause"
+			],
+			[
+				"de",
+				"detailedInstructions"
+			],
+			[
+				"in",
+				"instructions"
+			],
+			[
+				"cl",
+				"clearright"
+			],
+			[
+				"S",
+				"South"
+			],
+			[
+				"dock",
+				"isAtDock"
+			],
+			[
+				"is",
+				"isDone"
+			],
+			[
+				"avg",
+				"avgDist"
+			],
+			[
+				"at",
+				"isAtDock"
+			],
+			[
+				"approx",
+				"approxValuesa"
+			],
+			[
+				"all",
+				"alleyToLeft1"
+			],
+			[
+				"alley",
+				"alleyToLeft"
+			],
+			[
+				"alle",
+				"alleyToRight1"
+			],
+			[
+				"ALLEYAHEADANDTOR",
+				"ALLEYAHEADANDTORIGHT"
+			],
+			[
+				"ALL",
+				"alleyAheadAndToLeft"
+			],
+			[
+				"wall",
+				"wallThreshold"
+			],
+			[
+				"alleyA",
+				"alleyAheadAndToRight"
+			],
+			[
+				"dire",
+				"direction"
+			],
+			[
+				"mode",
+				"modeNumber"
+			],
+			[
+				"pre",
+				"previousSensors"
+			],
+			[
+				"previousRight",
+				"previousRightFront"
+			],
+			[
+				"previousL",
+				"previousLeftFront"
+			],
+			[
+				"ro",
+				"rotationalSpeed"
+			],
+			[
+				"selec",
+				"selectedSensors"
+			],
+			[
+				"catego",
+				"categorycontents〔variable〕"
+			],
+			[
+				"start",
+				"startTime"
+			],
+			[
+				"cryp",
+				"cryptPass〔variable〕"
+			],
+			[
+				"crypt",
+				"cryptPass"
+			],
+			[
+				"Pong",
+				"PongGame"
+			],
+			[
+				"velo",
+				"velocity_y"
+			],
+			[
+				"from",
+				"fromTower〔argument〕"
+			],
+			[
+				"con",
+				"constructCalMonth〔function〕"
+			],
+			[
+				"point",
+				"point〔variable〕"
+			],
+			[
+				"Zer",
+				"ZeroDivisionError〔class〕"
+			],
+			[
+				"ca",
+				"calcRatios〔function〕"
+			],
+			[
+				"cal",
+				"cal_year〔variable〕"
+			],
+			[
+				"constr",
+				"constructCalMonth〔function〕"
+			],
+			[
+				"total",
+				"total_slots〔variable〕"
+			],
+			[
+				"leap",
+				"leapYear〔function〕"
+			],
+			[
+				"day",
+				"dayOfWeekJan1〔function〕"
+			],
+			[
+				"num",
+				"num_days_in_month〔argument〕"
+			],
+			[
+				"le",
+				"letter_frequency〔function〕"
+			],
+			[
+				"n",
+				"n	param"
+			],
+			[
+				"x",
+				"x	param"
+			],
+			[
+				"None",
+				"None〔variable〕"
+			],
+			[
+				"max",
+				"maxList〔function〕"
+			],
+			[
+				"list",
+				"listSum〔function〕"
+			],
+			[
+				"curr",
+				"currTempF〔variable〕"
+			],
+			[
+				"title",
+				"title_case〔function〕"
+			],
+			[
+				"area",
+				"areaTriangle"
+			],
+			[
+				"years",
+				"yearsDays"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"c",
+				"class	New Class"
+			],
+			[
+				"N",
+				"N"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "{% load staticfiles %}\n\n<!doctype html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\" lang=\"\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\" lang=\"\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\" lang=\"\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"\"> <!--<![endif]-->\n    <head>\n        <meta charset=\"utf-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n        <title>{% block head_title %}{% endblock %}</title>\n        <meta name=\"description\" content=\"\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n        <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>\n        <!-- <link rel=\"stylesheet\" href=\"{% static 'css/bootstrap.min.css' %}\"> -->\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"https://bootswatch.com/lumen/bootstrap.min.css\">\n        <style>\n            body {\n                padding-top: 50px;\n                padding-bottom: 20px;\n            }\n        </style>\n        <link rel=\"stylesheet\" href=\"{% static 'css/bootstrap-theme.min.css' %}\">\n        <link rel=\"stylesheet\" href=\"{% static 'css/main.css' %}\">\n        <script src=\"{% static 'js/vendor/modernizr-2.8.3-respond-1.4.2.min.js' %}\"></script>\n    </head>\n    <body>\n        <!--[if lt IE 8]>\n            <p class=\"browserupgrade\">You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience.</p>\n        <![endif]-->\n    <a href=\"#content\" class=\"sr-only sr-only-focusable\">Skip to main content</a>\n\n    <nav class=\"navbar \" role=\"navigation\">\n      <div class=\"container-fluid\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <a class=\"navbar-brand\" href=\"#\">Project name</a>\n        </div>\n      <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n        <ul class=\"nav navbar-nav\">\n          <li class=\"active\"><a href=\"#\">Link <span class=\"sr-only\">(current)</span></a></li>\n          <li><a href=\"#\">Link</a></li>\n          <li class=\"dropdown\">\n            <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">Dropdown <span class=\"caret\"></span></a>\n            <ul class=\"dropdown-menu\" role=\"menu\">\n              <li><a href=\"#\">Action</a></li>\n              <li><a href=\"#\">Another action</a></li>\n              <li><a href=\"#\">Something else here</a></li>\n              <li class=\"divider\"></li>\n              <li><a href=\"#\">Separated link</a></li>\n              <li class=\"divider\"></li>\n              <li><a href=\"#\">One more separated link</a></li>\n            </ul>\n          </li>\n        </ul>\n        <form class=\"navbar-form navbar-left\" role=\"search\">\n          <div class=\"form-group\">\n            <input type=\"text\" class=\"form-control\" placeholder=\"Search\">\n          </div>\n          <button type=\"submit\" class=\"btn btn-default\">Submit</button>\n        </form>\n        <ul class=\"nav navbar-nav navbar-right\">\n          <li><a href=\"#\">Link</a></li>\n        </ul>\n      </div>\n\n      </div>\n    </nav>\n\n    <!-- Main jumbotron for a primary marketing message or call to action -->\n    <div class=\"jumbotron\">\n      <div class=\"container\">\n        <h1>(these)!</h1>\n        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>\n        <p><a class=\"btn btn-primary btn-lg\" href=\"#\" role=\"button\">Learn more &raquo;</a></p>\n      </div>\n    </div>\n\n    <div class=\"container\">\n      <!-- Example row of columns -->\n      <div class=\"row\">\n        <div class=\"col-md-4\">\n          <h2>Heading</h2>\n          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>\n          <p><a class=\"btn btn-default\" href=\"#\" role=\"button\">View details &raquo;</a></p>\n        </div>\n        <div class=\"col-md-4\">\n          <h2>Heading</h2>\n          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>\n          <p><a class=\"btn btn-default\" href=\"#\" role=\"button\">View details &raquo;</a></p>\n       </div>\n        <div class=\"col-md-4\">\n          <h2>Heading</h2>\n          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. onec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.onec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>\n          <p><a class=\"btn btn-default\" href=\"#\" role=\"button\">View details &raquo;</a></p>\n        </div>\n      </div>\n\n      <hr>\n\n      <footer>\n        <p>&copy; Company 2015</p>\n      </footer>\n    </div> <!-- /container -->        <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js\"></script>\n        <script>window.jQuery || document.write('<script src=\"static/js/vendor/jquery-1.11.2.min.js\"><\\/script>')</script>\n\n        <script src=\"{% static 'js/vendor/bootstrap.min.js' %}\"></script>\n\n        <script src=\"{% static 'js/main.js' %}\"></script>\n\n        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->\n        <script>\n            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=\n            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;\n            e=o.createElement(i);r=o.getElementsByTagName(i)[0];\n            e.src='//www.google-analytics.com/analytics.js';\n            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));\n            ga('create','UA-XXXXX-X','auto');ga('send','pageview');\n        </script>\n    </body>\n</html>\n",
+			"file": "theseabilities/templates/base.html",
+			"file_size": 6880,
+			"file_write_time": 130800976390000000,
+			"settings":
+			{
+				"buffer_size": 6880,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ".jumbotron h1{\n    color: navy;\n    font-family: \"Grand Hotel\";\n}\na:focus {\n    background-image:linear-gradient(to bottom,#337ab7 0,#265a88 100%);\n}\na:focus {\n    color:red !important;\n    border-style: solid !important;\n    /*border-width: 2px !important;*/\n    border-color: red !important;\n}\n\n/* ==========================================================================\n   Author's custom styles\n   ========================================================================== */\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			"file": "theseabilities/static/css/main.css",
+			"file_size": 499,
+			"file_write_time": 130803272260000000,
+			"settings":
+			{
+				"buffer_size": 499,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{% load staticfiles %}\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"stylesheet\" href=\"{% static \"pages/pages.css\" %}\">\n<!--     <link rel=\"stylesheet\" type=\"text/css\" href=\"https://bootswatch.com/slate/bootstrap.min.css\">\n -->    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css\">\n\n    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js\"></script>\n\n\n    <title>(these)abilities</title>\n</head>\n\n<body>\n  <a href=\"#content\" class=\"sr-only sr-only-focusable\">Skip to main content</a>\n\n  <nav class=\"navbar navbar-default\">\n    <div class=\"container-fluid\">\n      <div class=\"navbar-header\">\n        <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n          <span class=\"sr-only\">Toggle navigation</span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n        </button>\n        <a class=\"navbar-brand\" href=\"#\">Brand</a>\n      </div>\n\n      <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n        <ul class=\"nav navbar-nav\">\n          <li class=\"active\"><a href=\"#\">Link <span class=\"sr-only\">(current)</span></a></li>\n          <li><a href=\"#\">Link</a></li>\n          <li class=\"dropdown\">\n            <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">Dropdown <span class=\"caret\"></span></a>\n            <ul class=\"dropdown-menu\" role=\"menu\">\n              <li><a href=\"#\">Action</a></li>\n              <li><a href=\"#\">Another action</a></li>\n              <li><a href=\"#\">Something else here</a></li>\n              <li class=\"divider\"></li>\n              <li><a href=\"#\">Separated link</a></li>\n              <li class=\"divider\"></li>\n              <li><a href=\"#\">One more separated link</a></li>\n            </ul>\n          </li>\n        </ul>\n        <form class=\"navbar-form navbar-left\" role=\"search\">\n          <div class=\"form-group\">\n            <input type=\"text\" class=\"form-control\" placeholder=\"Search\">\n          </div>\n          <button type=\"submit\" class=\"btn btn-default\">Submit</button>\n        </form>\n        <ul class=\"nav navbar-nav navbar-right\">\n          <li><a href=\"#\">Link</a></li>\n        </ul>\n      </div>\n    </div>\n  </nav>\n\n<!-- MAIN CONTENT -->\n    <div class=\"container\" id=\"content\">\n      <div class=\"page-header\" id=\"banner\">\n        <div class=\"row\">\n          <div class=\"col-lg-8 col-md-7 col-sm-6\">\n            <h1>(these)abilities</h1>\n            <p class=\"lead\">We help you find or build assistive technology</p>\n          </div>\n        </div>\n      </div>\n    </div>\n    <p>hello</p>\n\n    <img src=\"{{STATIC_URL}}img/logo.jpg\" alt='alttext' style=\"width: 84px;\">\n\n</body>\n</html>",
+			"file": "pages/templates/pages/homepage.html",
+			"file_size": 2865,
+			"file_write_time": 130800944860000000,
+			"settings":
+			{
+				"buffer_size": 2865,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/SublimeREPL-Python.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 27.0,
+		"last_filter": "lint",
+		"selected_items":
+		[
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: new",
+				"Snippet: New Class"
+			],
+			[
+				"python",
+				"SublimeREPL: Python"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"list packa",
+				"Package Control: List Packages"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instla",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package controll ",
+				"Package Control: Disable Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Add Channel"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"package",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/bella/repos/theseabilities",
+		"/Users/bella/repos/theseabilities/functional_tests",
+		"/Users/bella/repos/theseabilities/pages",
+		"/Users/bella/repos/theseabilities/pages/__pycache__",
+		"/Users/bella/repos/theseabilities/pages/static",
+		"/Users/bella/repos/theseabilities/pages/static/pages",
+		"/Users/bella/repos/theseabilities/pages/templates",
+		"/Users/bella/repos/theseabilities/pages/templates/pages",
+		"/Users/bella/repos/theseabilities/theseabilities",
+		"/Users/bella/repos/theseabilities/theseabilities/static",
+		"/Users/bella/repos/theseabilities/theseabilities/static/css",
+		"/Users/bella/repos/theseabilities/theseabilities/templates"
+	],
+	"file_history":
+	[
+		"/Users/bella/repos/theseabilities/pages/urls.py",
+		"/Users/bella/repos/theseabilities/theseabilities/settings/base.py",
+		"/Users/bella/repos/theseabilities/theseabilities/templates/theseabilities/index.html",
+		"/Users/bella/repos/theseabilities/theseabilities/static/css/main.css",
+		"/Users/bella/repos/theseabilities/theseabilities/test.py",
+		"/Users/bella/repos/theseabilities/pages/views.py",
+		"/Users/bella/repos/theseabilities/functional_tests/test_all_users.py",
+		"/Users/bella/repos/theseabilities/pages/templates/pages/homepage.html",
+		"/Users/bella/repos/theseabilities/theseabilities/index.html",
+		"/Users/bella/repos/theseabilities/pages/static/pages/pages.css",
+		"/Users/bella/repos/theseabilities/theseabilities/settings/production.py",
+		"/Users/bella/repos/theseabilities/static/pages/pages.css",
+		"/Users/bella/repos/theseabilities/static/main.css",
+		"/Users/bella/repos/theseabilities/functional_tests/all_users.py",
+		"/Users/bella/repos/theseabilities/theseabilities/settings/development.py",
+		"/Users/bella/repos/theseabilities/theseabilities/settings/testing.py",
+		"/Users/bella/repos/theseabilities/theseabilities/settings.py",
+		"/Users/bella/repos/theseabilities/theseabilities/settings/staging.py",
+		"/Users/bella/.zshrc",
+		"/Users/bella/repos/theseabilities/.gitignore",
+		"/Users/bella/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Users/bella/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/bella/repos/theseabilities/pages/migrations/0001_initial.py",
+		"/Users/bella/repos/theseabilities/pages/templates/pages/homepage.css",
+		"/Users/bella/repos/theseabilities/pages/models.py",
+		"/Users/bella/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/bella/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/bella/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/bella/repos/theseabilities/theseabilities/urls.py",
+		"/Users/bella/repos/theseabilities/pages/admin.py",
+		"/Users/bella/repos/theseabilities/manage.py",
+		"/Users/bella/repos/theseabilities/templates/admin.py",
+		"/Users/bella/repos/theseabilities/repos/theseabilities",
+		"/Users/bella/repos/CodeJam/temp2.py",
+		"/usr/local/share/metasploit-framework/config/database.yml",
+		"/etc/profile",
+		"/etc/profile/database.yml",
+		"/Users/bella/repos/CodeJam/ovation.txt",
+		"/Users/bella/repos/CodeJam/ovation.py",
+		"/Users/bella/repos/CodeJam/pancakes.txt",
+		"/Users/bella/repos/CodeJam/ovation.in",
+		"/Users/bella/repos/CodeJam/ugh.py",
+		"/Users/bella/repos/CodeJam/A-smallpractice.in",
+		"/Users/bella/SUTD/2D/hotmessanglechecking.py",
+		"/Users/bella/SUTD/2D/robusterAmigoBrainSimulatorVersion.py",
+		"/Users/bella/SUTD/2D/funstuff.py",
+		"/Users/bella/SUTD/2D/generatePaths(competition).py",
+		"/Users/bella/SUTD/2D/generatePaths.py",
+		"/Users/bella/SUTD/2D/RacingRobustAmigo.py",
+		"/Users/bella/SUTD/2D/robustercompetitionbot.py",
+		"/Users/bella/SUTD/2D/competitionAmigoSimulatorVersion.py",
+		"/Users/bella/SUTD/2D/log.txt",
+		"/Users/bella/SUTD/2D/obstacleSimulation.py",
+		"/Users/bella/SUTD/2D/ohboylet'sseehowthisgoes.py",
+		"/Users/bella/SUTD/2D/competitionAmigoBot.py",
+		"/Users/bella/SUTD/2D/robusterAmigoBrain.py",
+		"/Users/bella/SUTD/2D/eetvurks!v1.py",
+		"/Users/bella/SUTD/2D/complog.txt",
+		"/Users/bella/SUTD/2D/logsim.txt",
+		"/Users/bella/SUTD/2D/instructionsPPrinter.py",
+		"/Users/bella/SUTD/2D/ohboylet'sseehowthisgoesreal",
+		"/Users/bella/SUTD/2D/temp.py",
+		"/Users/bella/SUTD/2D/competitionAmigoSimulatorVersion",
+		"/Users/bella/SUTD/2D/log.py",
+		"/Users/bella/SUTD/2D/amigoBrain.py",
+		"/Users/bella/SUTD/boundaryfollower/boundarySM.py",
+		"/Users/bella/SUTD/controller/Codes_for_eBot_Weeks_9_and_10/smBrain.py",
+		"/Users/bella/SUTD/controller/Codes_for_eBot_Weeks_9_and_10/smBrainPlotDistWork.py",
+		"/Users/bella/SUTD/controller/Codes_for_eBot_Weeks_9_and_10/propWallFollowBrainWork.py",
+		"/Users/bella/SUTD/boundaryfollower/temp.py",
+		"/Volumes/CACHESTORK/cachestork/CacheStork/JSONcreate.py",
+		"/Users/bella/Projects/cachestork/app/assets/images/jumbo_bgcopy.jpg",
+		"/Users/bella/Projects/cachestork/app/views/layouts/application.html.erb",
+		"/Users/bella/Projects/cachestork/config/application.yml",
+		"/Users/bella/repos/cachestork/readability.py",
+		"/Users/bella/repos/cachestork/CacheStork/videodirectoryparsing.py",
+		"/Users/bella/repos/cachestork/CacheStork/web/assets/css/main.css",
+		"/Users/bella/repos/cachestork/CacheStork/config.cfg",
+		"/Users/bella/repos/cachestork/CacheStork/tagsetting/stopwords",
+		"/Users/bella/repos/cachestork/CacheStork/web/assets/js/root.js",
+		"/Users/bella/repos/cachestork/CacheStork/MediaBrowserUI.py",
+		"/Users/bella/repos/cachestork/CacheStork/web/assets/img/thumbnails/screenshot4.jpg/screenshot2.jpg",
+		"/Users/bella/repos/cachestork/CacheStork/updatewidget.py",
+		"/Users/bella/repos/localmediamanager/LocalMediaManager/web/assets/js/json.js",
+		"/Users/bella/repos/localmediamanager/LocalMediaManager/MediaBrowserUI.py",
+		"/Users/bella/repos/cachestork/cachestork/cachestork/readability_score.py",
+		"/Users/bella/Library/Application Support/Sublime Text 3/Packages/Sourcegraph/Sourcegraph.sublime-settings",
+		"/Users/bella/SUTD/digital world/temp.py",
+		"/Users/bella/SUTD/digital world/wk8/hw4.py",
+		"/Users/bella/SUTD/digital world/wk8/inheritance.py",
+		"/Users/bella/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/bella/SUTD/digital world/wk8/hw3.py",
+		"/Users/bella/SUTD/digital world/wk8/hw2.py",
+		"/Users/bella/SUTD/digital world/wk8/3.py",
+		"/Users/bella/SUTD/digital world/readwrite.py",
+		"/Users/bella/SUTD/digital world/wk8/hw1.py",
+		"/Users/bella/SUTD/digital world/dump for exam/kwargs.py",
+		"/Users/bella/SUTD/digital world/wk8/1.py",
+		"/Users/bella/SUTD/digital world/wk8/2.py",
+		"/Users/bella/SUTD/digital world/q6.py",
+		"/Users/bella/SUTD/digital world/dictionary.txt",
+		"/Users/bella/SUTD/digital world/passwords.txt",
+		"/Users/bella/SUTD/digital world/UnixPwCracker.py",
+		"/Users/bella/SUTD/digital world/q7.py",
+		"/Users/bella/repos/emirates/initializr/index.html",
+		"/Users/bella/Projects/Kivy/temp.py",
+		"/Users/bella/Projects/Kivy/learningkivy/minimalapp.py",
+		"/Users/bella/Projects/Kivy/kivy.tmLanguage",
+		"/Users/bella/SUTD/digital world/wk5/playcraps.py",
+		"/Users/bella/SUTD/digital world/temp1.py",
+		"/Users/bella/SUTD/digital world/test.html",
+		"/Users/bella/SUTD/digital world/wk5/calendar.py",
+		"/Users/bella/SUTD/digital world/wk5/playcraps2.py",
+		"/Users/bella/SUTD/digital world/pset4.py",
+		"/Users/bella/SUTD/digital world/calendar.py",
+		"/Users/bella/SUTD/digital world/e",
+		"/Users/bella/SUTD/digital world/lambdas.py",
+		"/Users/bella/SUTD/digital world/wk 1 activity 8/listsum.py",
+		"/Users/bella/SUTD/digital world/temp3.py",
+		"/Users/bella/SUTD/digital world/POWERSET.py",
+		"/Users/bella/SUTD/digital world/python scraps.sublime-project",
+		"/Users/bella/SUTD/digital world/wk2/compoundval.py",
+		"/Users/bella/SUTD/digital world/part_b.py",
+		"/Users/bella/SUTD/digital world/secret message.py",
+		"/Users/bella/SUTD/digital world/secretmessage with maketrans.py",
+		"/Users/bella/SUTD/digital world/temp4.py",
+		"/Users/bella/SUTD/digital world/temp5.py",
+		"/Users/bella/SUTD/digital world/digital root(recursion).py"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"id",
+			";oml re;",
+			"secret_key",
+			"debug",
+			"static",
+			"[\n	{ \"keys\": [\"super+ctrl+a\"], \"command\": \"alignment\" }\n]",
+			"toggle nav",
+			"static",
+			"website.question",
+			"question",
+			"port",
+			"post",
+			"homepage",
+			"mysite",
+			"theseabilities",
+			"theseabilit",
+			"print",
+			"max(people)",
+			"count >= ",
+			"ro1",
+			"nextstate",
+			">= 10",
+			"obsvel",
+			"obstac",
+			"obstacle",
+			"            print \"wtf\"\n",
+			"getdistanceri",
+			"desiredRight",
+			"intense",
+			"0.18*",
+			"0.5*",
+			"sensors",
+			"obstacle",
+			"previoussensors",
+			"previousrightdis",
+			"rightdist",
+			"k1",
+			"pause",
+			"k2",
+			"junction'",
+			"next",
+			"junction",
+			"FUCKING",
+			"FUCK",
+			"fuck",
+			"speed",
+			"WallFollower",
+			"rightdist",
+			"mode",
+			"nextstate",
+			"wallfollower",
+			"wallfollower(",
+			"LO1",
+			"intense RO1",
+			"string",
+			"strftime",
+			"LO1",
+			"pausing",
+			"wait",
+			"stdscr",
+			"detailedinstr",
+			"print",
+			"pirnt",
+			"ambigu",
+			"ro1",
+			"intense go",
+			"Intense Go'",
+			"mode = '",
+			"intense ro1",
+			"intense ",
+			"intense r",
+			"intense ro1",
+			"lo1",
+			"junctiondu",
+			"plate",
+			"data",
+			"exiting",
+			"count:8",
+			"count2",
+			"(count2:13)",
+			"(count2:15)",
+			"(count2:)([1-9])",
+			"(count2:)(^0)",
+			"count2:(^0)",
+			"count2:{^0}",
+			"exiting",
+			"k1 = ",
+			"k1",
+			"fvel",
+			".txt",
+			"print",
+			"ATAJUNC",
+			"AMBIGUOU",
+			"fvel",
+			"lo",
+			"turnduration",
+			"spin",
+			"desiredright",
+			"k1 = 60",
+			"turn",
+			"ddesired",
+			" >= 10:",
+			"desiredright",
+			".pi",
+			"incre",
+			".pi",
+			"math.pi",
+			"lo1",
+			"fvel = ",
+			"lo1",
+			"rvel = ",
+			"Lo1",
+			"1.2",
+			"intense",
+			"ro1",
+			"h.pi",
+			"rvel =",
+			"th.pi",
+			"if mode is",
+			"if mode",
+			"s \"LO",
+			"RO1",
+			"ambiguous",
+			"leftobstacle",
+			"ambiguous",
+			"rightdist",
+			"check obstac",
+			"checkobstac"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			">\n",
+			"fun",
+			"CacheStork",
+			"    return ",
+			"    return",
+			"",
+			"and",
+			"or",
+			"else",
+			"    r",
+			" else ",
+			" else",
+			" if last == ",
+			"return",
+			"elif",
+			"wordArray"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "theseabilities/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6880,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1679,
+								1679
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 744.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "theseabilities/static/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "pages/templates/pages/homepage.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1100,
+								2375
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 622.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 232.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Python2.sublime-build",
+	"project": "theseabilities.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"main.c",
+				"theseabilities/static/css/main.css"
+			],
+			[
+				"main",
+				"theseabilities/static/css/main.css"
+			],
+			[
+				".css",
+				"theseabilities/static/css/main.css"
+			],
+			[
+				".html",
+				"pages/templates/pages/homepage.html"
+			],
+			[
+				"",
+				"theseabilities/templates/theseabilities/index.html"
+			],
+			[
+				"url",
+				"pages/urls.py"
+			],
+			[
+				"base",
+				"theseabilities/settings/base.py"
+			],
+			[
+				"test",
+				"functional_tests/test_all_users.py"
+			],
+			[
+				"index",
+				"theseabilities/templates/theseabilities/index.html"
+			],
+			[
+				"ind",
+				"theseabilities/templates/theseabilities/index.html"
+			],
+			[
+				"base.ht",
+				"theseabilities/templates/base.html"
+			],
+			[
+				"views",
+				"pages/views.py"
+			],
+			[
+				"urls",
+				"pages/urls.py"
+			],
+			[
+				"vie",
+				"pages/views.py"
+			],
+			[
+				"test_",
+				"functional_tests/test_all_users.py"
+			],
+			[
+				"sett",
+				"theseabilities/settings.py"
+			],
+			[
+				"all_",
+				"functional_tests/all_users.py"
+			],
+			[
+				"se",
+				"theseabilities/settings.py"
+			],
+			[
+				"home",
+				"pages/templates/pages/homepage.html"
+			],
+			[
+				"homepage.css",
+				"pages/templates/pages/homepage.css"
+			],
+			[
+				"view",
+				"pages/views.py"
+			],
+			[
+				".htm",
+				"pages/templates/pages/homepage.html"
+			],
+			[
+				"models",
+				"pages/models.py"
+			],
+			[
+				"admin",
+				"templates/admin.py"
+			],
+			[
+				"manag",
+				"manage.py"
+			],
+			[
+				"p",
+				"pancakes.txt"
+			],
+			[
+				"ugh",
+				"ugh.py"
+			],
+			[
+				"o",
+				"ovation.in"
+			],
+			[
+				"ov",
+				"ovation.in"
+			],
+			[
+				"ova",
+				"ovation.in"
+			],
+			[
+				"ovati",
+				"ovation.txt"
+			],
+			[
+				"temp",
+				"temp.py"
+			],
+			[
+				"gene",
+				"generatePaths.py"
+			],
+			[
+				"simulator",
+				"robusterAmigoBrainSimulatorVersion.py"
+			],
+			[
+				"simu",
+				"robusterAmigoBrainSimulatorVersion.py"
+			],
+			[
+				"robus",
+				"RacingRobustAmigo.py"
+			],
+			[
+				"fun",
+				"funstuff.py"
+			],
+			[
+				"angl",
+				"hotmessanglechecking.py"
+			],
+			[
+				"sim",
+				"robusterAmigoBrainSimulatorVersion.py"
+			],
+			[
+				"log",
+				"log.txt"
+			],
+			[
+				"log.tx",
+				"log.txt"
+			],
+			[
+				"eet",
+				"eetvurks!v1.py"
+			],
+			[
+				"comp",
+				"complog.txt"
+			],
+			[
+				"logsm",
+				"logsim.txt"
+			],
+			[
+				"logs",
+				"logsim.txt"
+			],
+			[
+				"simulat",
+				"robusterAmigoBrainSimulatorVersion.py"
+			],
+			[
+				"logsim",
+				"logsim.txt"
+			],
+			[
+				"simul",
+				"robusterAmigoBrainSimulatorVersion.py"
+			],
+			[
+				"te",
+				"temp.py"
+			],
+			[
+				"propwall",
+				"Codes_for_eBot_Weeks_9_and_10/propWallFollowBrainWork.py"
+			],
+			[
+				"slim",
+				"app/views/home/index.html.slim"
+			],
+			[
+				"css",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"google",
+				"lib/utilities/google_api.rb"
+			],
+			[
+				"applicationhtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"8c",
+				"wk 1 activity 8/8c.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
