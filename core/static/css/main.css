@@ -1699,13 +1699,19 @@
     }
 
         header.major:after {
-            background: #eee;
             content: '';
             display: inline-block;
             height: 3px;
             margin: 0 0 2em 0;
             width: 6em;
         }
+        #make header.major:after {
+            background: #eee;
+        }
+        #share header.major:after {
+            background: #555;
+        }
+
 
         header.major.alt {
             text-align: center;
