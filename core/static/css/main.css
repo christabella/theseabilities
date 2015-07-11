@@ -1738,11 +1738,11 @@
         line-height: 0;        
     }
     #make h2.bigword {
-        padding: 0.5em 0em 0em 0.2em;
+        padding: 0.38em 0em 0em 0.2em;
     }
 
     #share h2.bigword {
-        padding: 0.5em 0.3em 0em 0em;
+        padding: 0.38em 0.3em 0em 0em;
     }
 
 
@@ -2547,8 +2547,8 @@
 /* Header */
 
     .navbar-logo {
-        height:25px;
-        margin: 0em 0.5em -0.5em 0em;    
+        height: 25px;
+        margin: 0em 0.5em -0.15em 0em;    
     }
 
     #page-wrapper {
@@ -2580,7 +2580,14 @@
         }
 
             #header h1 a {
-                font-size: 1em;
+                font-size: 1.4em;
+                text-transform: none;
+                font-family: Smoothy-Cursive;
+                letter-spacing: 0;
+                top: 1em;
+                margin: 1em 0em -1em 0em;
+                font-weight: 600;
+                line-height: 2.6em;            
             }
 
                 #header h1 a:before {
@@ -2757,7 +2764,7 @@
             /*background: #1d2726;*/
             background: rgba(255, 255, 255, 0.85);
             /*background: rgba(29, 39, 38, 0.9);*/
-            color: rgba(29, 39, 38, 0.9);
+            color: rgba(29, 39, 38, 0.7);
             display: inline-block;
             padding: 3.5em 5em;
             position: relative;
@@ -2765,7 +2772,7 @@
         }
 
             #banner .inner h2 {
-                color: rgba(29, 39, 38, 0.9);
+                color: rgba(29, 39, 38, 0.8);
                 font-size: 2.2em;
                 /*font-family: "GrowlerScript-Regular";*/
                 /*font-family: "Folkster-Regular";*/
