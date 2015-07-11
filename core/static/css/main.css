@@ -182,7 +182,8 @@
 
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 580px) {
+        /* changed 480 TO 580 */
 
         .container.\31 25\25 {
             width: 100%;
@@ -1326,8 +1327,8 @@
 
     }
 
-    @media screen and (max-width: 480px) {
-
+    @media screen and (max-width: 580px) {
+/*changed 480 to 580*/
         .row > * {
             padding: 0 0 0 2em;
         }
@@ -1710,31 +1711,34 @@
             text-align: center;
             margin-bottom: 2em;
         }
-    
-    #one .inner, #one h2 {
+
+
+    #make .smallword, #share .smallword{
+        padding: 0em 2em 0em 5em;
+    }
+
+    #make h2, #make p {
         color: #454249 !important;
     }
 
-    #two .inner, #two h2 {
+    #share h2, #share p {
         color: #fff !important;
     }
 
-    .bigwords{
-        font-size: 3em;
+
+    h2.bigword{
+        font-size:17vw;
+        letter-spacing: normal;
+        line-height: 0;        
+    }
+    #make h2.bigword {
+        padding: 0.5em 0em 0em 0.2em;
     }
 
-    #one .container{
-        margin-right: -8em;
-        margin-left: 8em;
-}
-    #one .smallwords{
-
-        float:right;
-        text-align: left;
-        width: 59%;
-        padding: 0em 3em 0em -0.4em;
-        /*margin: 6em 0em 6em 0em;*/
+    #share h2.bigword {
+        padding: 0.5em 0.3em 0em 0em;
     }
+
 
     #two .smallwords{
         text-align: right;
@@ -3307,8 +3311,8 @@
 
 /* Mobile (Portrait) */
 
-    @media screen and (max-width: 480px) {
-
+    @media screen and (max-width: 580px) {
+/*changed 480 to 580*/
         /* Basic */
 
             html, body {

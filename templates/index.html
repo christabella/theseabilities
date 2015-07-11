@@ -16,8 +16,8 @@
         #banner { background-image: url("{% static 'images/overlay.png' %}"), url("{% static 'images/banner.jpg' %}");}
         .image:before { background: url("{% static 'images/overlay.png' %}"); }
         #header { background-image: url("{% static 'images/stardust.png' %}"); }
-        .wrapper.style1 { background-image: url("{% static 'images/pink_rice.png' %}"); }
-        .wrapper.style2 { background-image: url("{% static 'images/stardust.png' %}"); }
+        #make { background-image: url("{% static 'images/pink_rice.png' %}"); margin-top: -2em;}
+        #share { background-image: url("{% static 'images/stardust.png' %}"); }
         @font-face { font-family: Smoothy-Cursive; src: url("{% static 'fonts/Smoothy-Cursive.otf' %}"); }
         </style>
     </head>
@@ -62,18 +62,40 @@
                 </section>
 
             <!-- One -->
-                <section id="one" class="wrapper style1">
-                    <div class="container">
-                        <div class="inner smallwords">
+                <!-- <section id="one" > -->
+                <section id="make" class="wrapper">
+                    <div class="row">
+
+                        <div class="6u 12u(mobilep)">
+                            <header class="">
+                                <h2 class="bigword align-center">Make</h2>
+                            </header>
+                        </div>
+
+                        <div class="6u 12u(mobilep) smallword">
                             <header class="major">
                                 <h2>Design and collaborate on assistive technology products for people with disabilities.</h2>
                             </header>
                             <p>Anyone can be a maker. Design assistive technology for people with disabilities.</p>
                         </div>
 
-                        <div class="inner bigwords">
-                            <header class="bigwords">
-                                <h2>Make</h2>
+
+                    </div>
+                
+                </section>
+
+                <section id="share" class="wrapper">
+                    <div class="row">
+                        <div class="5u 12u(mobilep) smallword">
+                            <header class="major">
+                                <h2>Design and collaborate on assistive technology products for people with disabilities.</h2>
+                            </header>
+                            <p>Anyone can be a maker. Design assistive technology for people with disabilities.</p>
+                        </div>
+
+                        <div class="7u 12u(mobilep)">
+                            <header class="">
+                                <h2 class="bigword align-center">Share</h2>
                             </header>
                         </div>
 
@@ -81,80 +103,14 @@
                 
                 </section>
 
-                <section id="two" class="wrapper style2">
-                    <div class="container">
-                        <div class="inner smallwords">
-                            <header class="major">
-                                <h2>Design and collaborate on assistive technology products for people with disabilities.</h2>
-                            </header>
-                            <p>Anyone can be a maker. Design assistive technology for people with disabilities.</p>
-                        </div>
-
-                        <div class="inner bigwords">
-                            <header class="bigwords">
-                                <h2>Share</h2>
-                            </header>
-                        </div>
-
-                    </div>
-                
-                </section>
-
-            <!-- Three -->
-                <section id="three" class="wrapper style3">
-                    <div class="container">
-                        <div class="row">
-                            <div class="4u 12u(narrow)">
-                                <section class="image-feature">
-                                    <a href="#">
-                                        <header>
-                                            <h3>Magna etiam</h3>
-                                        </header>
-                                        <span class="image fit"><img src="{% static 'images/pic02.jpg' %}" alt="" /></span>
-                                        <footer>
-                                            <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia pulvinar.</p>
-                                        </footer>
-                                    </a>
-                                </section>
-                            </div>
-                            <div class="4u 12u(narrow)">
-                                <section class="image-feature">
-                                    <a href="#">
-                                        <header>
-                                            <h3>Ipsum feugiat</h3>
-                                        </header>
-                                        <span class="image fit"><img src="{% static 'images/pic03.jpg' %}" alt="" /></span>
-                                        <footer>
-                                            <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia pulvinar.</p>
-                                        </footer>
-                                    </a>
-                                </section>
-                            </div>
-                            <div class="4u 12u(narrow)">
-                                <section class="image-feature">
-                                    <a href="#">
-                                        <header>
-                                            <h3>Arcu phasellus</h3>
-                                        </header>
-                                        <span class="image fit"><img src="{% static 'images/pic04.jpg' %}" alt="" /></span>
-                                        <footer>
-                                            <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia pulvinar.</p>
-                                        </footer>
-                                    </a>
-                                </section>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-            <!-- Four -->
-                <section id="four" class="wrapper style4 special">
+            <!-- Contact -->
+                <section id="contact" class="wrapper style4 special">
                     <div class="container 75%">
                         <header class="major">
                             <h2>Talk to us!<br />
                             We're always listening</h2>
                         </header>
-                        <form method="post" action="#">
+                        <form method="POST" action="http://formspree.io/christabella.irwanto@gmail.com">
                             <div class="row uniform 50%">
                                 <div class="6u 12u(mobilep)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                 <div class="6u 12u(mobilep)"><input type="email" name="email" id="email" placeholder="Email" /></div>
